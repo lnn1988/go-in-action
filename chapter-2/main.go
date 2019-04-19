@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 	"os"
-	"~/search"
-	"matchers"
+	"./search"
+	"./matchers"
 )
 
 func init()  {
