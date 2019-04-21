@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deb043cb-964b-4625-b60d-aa3710c1c15d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go-in-action.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/go.imports.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="deb043cb-964b-4625-b60d-aa3710c1c15d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,22 +26,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="knowledge.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter-4/knowledge.md">
+        <entry file="file://$PROJECT_DIR$/chapter-5/knowledge.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="382">
-                <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="220">
+                <caret line="10" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter-3/hello.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -75,6 +59,7 @@
         <option value="$PROJECT_DIR$/chapter-2/main.go" />
         <option value="$PROJECT_DIR$/chapter-3/hello.go" />
         <option value="$PROJECT_DIR$/chapter-4/knowledge.md" />
+        <option value="$PROJECT_DIR$/chapter-5/knowledge.md" />
       </list>
     </option>
   </component>
@@ -110,12 +95,7 @@
             <path>
               <item name="go-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-in-action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-in-action" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter-4" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +156,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14164004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14164004" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
@@ -266,6 +246,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-4/knowledge.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="382">
+            <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-3/hello.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -273,11 +263,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-4/knowledge.md">
+    <entry file="file://$PROJECT_DIR$/chapter-5/knowledge.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="382">
-            <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
