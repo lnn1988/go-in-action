@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="deb043cb-964b-4625-b60d-aa3710c1c15d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter-5/knowledge.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5/knowledge.md" afterDir="false" />
-    </list>
+    <list default="true" id="deb043cb-964b-4625-b60d-aa3710c1c15d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter-5/interface/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +57,8 @@
         <option value="$PROJECT_DIR$/chapter-3/hello.go" />
         <option value="$PROJECT_DIR$/chapter-4/knowledge.md" />
         <option value="$PROJECT_DIR$/chapter-5/knowledge.md" />
+        <option value="$PROJECT_DIR$/chapter-5/main.go" />
+        <option value="$PROJECT_DIR$/chapter-5/interface/main.go" />
       </list>
     </option>
   </component>
@@ -63,7 +72,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="934" />
+    <option name="x" value="680" />
     <option name="width" value="934" />
     <option name="height" value="1080" />
   </component>
@@ -86,6 +95,12 @@
               <item name="go-in-action" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-in-action" type="462c0819:PsiDirectoryNode" />
               <item name="chapter-5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-in-action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-in-action" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter-5" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -115,13 +130,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build hello.go">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build hello.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-in-action" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/chapter-3/hello.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-in-action" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chapter-5/interface/main.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -135,24 +158,27 @@
     <list>
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build hello.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build hello.go" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="934" y="0" width="934" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="824" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14786418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21867007" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935324" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960325" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32238805" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -246,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter-3/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter-5/knowledge.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -260,6 +279,37 @@
             <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-5/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-3/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/golang.org/x/tools/go/ssa/interp/testdata/src/fmt/fmt.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter-5/interface/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
         </state>
       </provider>
     </entry>
